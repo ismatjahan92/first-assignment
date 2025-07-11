@@ -195,6 +195,7 @@ header{
 }
 .focus-btn{
   display: block;
+  text-align: center;
 }
 .focus-better-img{
   width: 840px;
@@ -203,3 +204,42 @@ header{
   margin-top: 30px;
 }
 /* focus better end */
+/* get touch start */
+.get-touch{
+  width: 1140px;
+  height: 632px;
+  margin: 0 auto;
+  display: flex;
+  gap: 115px;
+  padding: 71px 0;
+}
+.focus-t-left-title{
+  font-size: 97px;
+  font-weight: 700;
+}
+.get-touch-right label{
+     display: block;
+}
+.get-touch input[type="email"], input[type="text"], textarea{
+  width: 497px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  color: rgba(37, 36, 50, 0.5);
+  padding: 10px 20px;
+  margin-bottom: 19px;
+
+}
+.get-touch-label{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+
+}
+.get-touch-btn{
+  width: 497px;
+  height: 45px;
+  padding: 10px 20px;
+}
+
+/* get touch end */
