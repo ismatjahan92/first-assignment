@@ -58,6 +58,9 @@ header{
     border-radius: 10px;
     color: #FFFFFF;
 }
+.btn-primary:hover{
+  background-color: #9d9ca3;
+}
 /* header end */
 
 
@@ -165,6 +168,7 @@ header{
   height: 243px;
   border-radius: 10px;
   background-color: white;
+  padding: 24px;
 }
 .top-us{
 
@@ -174,6 +178,16 @@ header{
 }
 .top-us-p{
 
+}
+.bottom-us{
+  display: flex;
+  gap: 20px;
+}
+.bottom-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 30px;
 }
 /* user say end */
 /* focus better start */
@@ -217,10 +231,14 @@ header{
   font-size: 97px;
   font-weight: 700;
 }
+.get-touch-right{
+  align-items: flex-end;
+  /* border: 1px solid red; */
+}
 .get-touch-right label{
      display: block;
 }
-.get-touch input[type="email"], input[type="text"], textarea{
+.get-touch input[type="email"], input[type="text"]{
   width: 497px;
   height: 45px;
   border-radius: 10px;
@@ -228,6 +246,14 @@ header{
   color: rgba(37, 36, 50, 0.5);
   padding: 10px 20px;
   margin-bottom: 19px;
+
+}
+textarea{
+  width: 497px;
+  padding:0 20px;
+  margin-bottom: 20px;
+  border: none;
+  align-items: center;
 
 }
 .get-touch-label{
@@ -243,3 +269,41 @@ header{
 }
 
 /* get touch end */
+/* footer start */
+
+.ft{
+  width: 500px;
+  height: 200;
+  margin: 0 auto;
+  padding: 70px 300px;
+}
+footer{
+  background-color: white;
+}
+.ft-title{
+  font-size: 100px;
+  font-style: black;
+  text-align: center;
+}
+.ft-description{
+  font-size: 17px;
+  font-weight: 300;
+  margin: -50px;
+}
+nav{
+  margin: 50px;
+}
+nav ul{
+  display: flex;
+}
+nav ul li{
+  list-style: none;
+  margin: 20px 17px;
+}
+nav ul li a{
+  text-decoration: none;
+}
+ul li a:hover{
+     background-color: #4E47FF;
+}
+/* footer end */
